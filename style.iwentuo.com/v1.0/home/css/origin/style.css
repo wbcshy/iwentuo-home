@@ -503,7 +503,7 @@ ul.team-icons.new-inf li {
 .right-side-img-tem-inside {
     float: left;
     width: 60%;
-    background: url(../images/img3.jpg) no-repeat center;
+    background: url(../../images/origin/img3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1453,7 +1453,7 @@ ul.social_section_1info a:hover {
     height: 36px;
     border: none;
     text-indent: 100%;
-    background: #0d0d0d url(../images/move_up.png) no-repeat 10px 9px;
+    background: #0d0d0d url(../../images/origin/move_up.png) no-repeat 10px 9px;
 }
 
 #toTopHover {
