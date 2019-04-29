@@ -1,6 +1,12 @@
 $(function(){
-    //实现文拓主页的图片轮播图效果
-    var mySwiper = new Swiper ('.swiper-container', {
+    var window = $(window);
+    var jq = $;
+    var itemTimer;   //定时器时间控制
+
+    /***
+     * 文拓官网轮播图模块
+     */
+    var wentuoSwiper = new Swiper ('.swiper-container', {
         //设置断点宽度
         breakpoints: {
             1024: {
@@ -34,6 +40,31 @@ $(function(){
         },
        /* mousewheel: true,*/   //鼠标触发轮播
     });
+
+    //首页网站建设模块部分
+    jq('.portfolio').on({
+        mouseover : function () {
+            var self = this;
+
+            jq(self).stop().animate({width: '290px'}, 500);   //网站建设模块图片动画
+
+            jq(self).find(".content-word").css("display","block").animate({   //文字背景图片动画`
+                width: '100%',
+                height: '100%'
+            }, 500).find("span").animate({
+                font: '12px',
+                color: '#fff'
+            }, 1000);
+
+        },
+        mouseleave : function () {
+            jq(".content-word").css("display","none");
+            jq(this).stop().animate({width: '197px'}, 500, function() {
+
+            });
+        }
+    });
+
 
 
 });
