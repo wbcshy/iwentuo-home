@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63783f3f-dee3-45d3-87e3-c40e8c4e84df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www.iwntuo.com/v1.0/images/home/demo02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www.iwntuo.com/v1.0/js/home/wentuo.animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www.iwntuo.com/v1.0/images/home/daohang_bg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.iwntuo.com/v1.0/css/my-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/www.iwntuo.com/v1.0/css/my-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www.iwntuo.com/v1.0/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/www.iwntuo.com/v1.0/css/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www.iwntuo.com/v1.0/js/home/advertisement.js" beforeDir="false" afterPath="$PROJECT_DIR$/www.iwntuo.com/v1.0/js/home/advertisement.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www.iwntuo.com/v1.0/page/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www.iwntuo.com/v1.0/page/home/index.html" afterDir="false" />
@@ -29,35 +29,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/js/home/advertisement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+            <state relative-caret-position="421">
+              <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/page/home/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="252" column="43" selection-start-line="252" selection-start-column="43" selection-end-line="252" selection-end-column="43" />
+            <state relative-caret-position="284">
+              <caret line="246" column="44" lean-forward="true" selection-start-line="246" selection-start-column="44" selection-end-line="246" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/css/portfolio.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -65,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/css/my-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="288">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -76,9 +66,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -87,6 +77,7 @@
       <find>·</find>
       <find>nav-link</find>
       <find>ul</find>
+      <find>button</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,13 +108,15 @@
         <option value="$PROJECT_DIR$/style.iwentuo.com/toolkit/requirejs-2.3.6/require.js" />
         <option value="$PROJECT_DIR$/www.iwntuo.com/v1.0/home/index.html" />
         <option value="$PROJECT_DIR$/style.iwentuo.com/v1.0/js/main.js" />
-        <option value="$PROJECT_DIR$/www.iwntuo.com/v1.0/css/my-style.css" />
         <option value="$PROJECT_DIR$/www.iwntuo.com/v1.0/js/main.js" />
         <option value="$PROJECT_DIR$/www.iwntuo.com/v1.0/page/home/gallery.html" />
-        <option value="$PROJECT_DIR$/www.iwntuo.com/v1.0/css/portfolio.css" />
         <option value="$PROJECT_DIR$/www.iwntuo.com/v1.0/js/home/wentuo.animate.js" />
+        <option value="$PROJECT_DIR$/www.iwntuo.com/v1.0/page/home/demo.html" />
+        <option value="$PROJECT_DIR$/style.iwentuo.com/toolkit/bootstrap-4.0.0/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/www.iwntuo.com/v1.0/js/home/advertisement.js" />
+        <option value="$PROJECT_DIR$/www.iwntuo.com/v1.0/css/portfolio.css" />
         <option value="$PROJECT_DIR$/www.iwntuo.com/v1.0/page/home/index.html" />
+        <option value="$PROJECT_DIR$/www.iwntuo.com/v1.0/css/my-style.css" />
       </list>
     </option>
   </component>
@@ -141,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,13 +183,6 @@
               <item name="iwentuo-home" type="462c0819:PsiDirectoryNode" />
               <item name="www.iwntuo.com" type="462c0819:PsiDirectoryNode" />
               <item name="v1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iwentuo-home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iwentuo-home" type="462c0819:PsiDirectoryNode" />
-              <item name="www.iwntuo.com" type="462c0819:PsiDirectoryNode" />
-              <item name="v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -225,7 +212,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,19 +229,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\webstorm\iwentuo-home\www.iwntuo.com\v1.0" />
-      <recent name="E:\workspace\webstorm\iwentuo-home\www.iwntuo.com\v1.0\page" />
-      <recent name="E:\workspace\webstorm\iwentuo-home\style.iwentuo.com\v1.0\images" />
-      <recent name="E:\workspace\webstorm\iwentuo-home\style.iwentuo.com\v1.0\js" />
-      <recent name="E:\workspace\webstorm\iwentuo-home\style.iwentuo.com\toolkit\animate" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\webstorm\iwentuo-home\www.iwntuo.com\v1.0\images\home" />
       <recent name="E:\workspace\webstorm\iwentuo-home\www.iwntuo.com\v1.0\js" />
       <recent name="E:\workspace\webstorm\iwentuo-home\style.iwentuo.com\v1.0\js" />
       <recent name="E:\workspace\webstorm\iwentuo-home\style.iwentuo.com\toolkit\swiper-4.5.0" />
       <recent name="E:\workspace\webstorm\iwentuo-home\style.iwentuo.com\v1.0\toolkit" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\webstorm\iwentuo-home\www.iwntuo.com\v1.0" />
+      <recent name="E:\workspace\webstorm\iwentuo-home\www.iwntuo.com\v1.0\page" />
+      <recent name="E:\workspace\webstorm\iwentuo-home\style.iwentuo.com\v1.0\images" />
+      <recent name="E:\workspace\webstorm\iwentuo-home\style.iwentuo.com\v1.0\js" />
+      <recent name="E:\workspace\webstorm\iwentuo-home\style.iwentuo.com\toolkit\animate" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,12 +271,13 @@
       <workItem from="1556430093111" duration="41337000" />
       <workItem from="1556485261491" duration="2845000" />
       <workItem from="1556513765897" duration="10691000" />
-      <workItem from="1556550065092" duration="9774000" />
+      <workItem from="1556550065092" duration="9936000" />
+      <workItem from="1556604211456" duration="13910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77741000" />
+    <option name="totallyTimeSpent" value="91813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="1" width="1936" height="1056" extended-state="6" />
@@ -320,12 +307,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/page/home/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.iwentuo.com/v1.0/css/swiper/swiper.min.css" />
     <entry file="file://$PROJECT_DIR$/style.iwentuo.com/v1.0/home/js/swiper/swiper.min.js" />
     <entry file="file://$PROJECT_DIR$/style.iwentuo.com/v1.0/toolkit/swiper-4.5.0/src/less/mixins.less" />
     <entry file="file://$PROJECT_DIR$/style.iwentuo.com/v1.0/toolkit/bootstrap-3.3.7/js/bootstrap.js" />
@@ -606,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/css/my-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/images/home/a7.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -623,13 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/css/portfolio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -647,23 +614,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/js/home/advertisement.js">
+    <entry file="file://$PROJECT_DIR$/style.iwentuo.com/toolkit/bootstrap-4.0.0/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        <state relative-caret-position="292">
+          <caret line="5" column="5407" selection-start-line="5" selection-start-column="5407" selection-end-line="5" selection-end-column="5434" />
+          <folding>
+            <element signature="e#61909#62109#2" expanded="true" />
+            <element signature="e#62317#62466#2" expanded="true" />
+            <element signature="e#62968#63114#2" expanded="true" />
+            <element signature="e#63415#63581#1" expanded="true" />
+            <element signature="e#74301#74544#2" expanded="true" />
+            <element signature="e#75411#75660#2" expanded="true" />
+            <element signature="e#101957#102147#2" expanded="true" />
+            <element signature="e#102193#102383#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/page/home/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="485" column="34" lean-forward="true" selection-start-line="481" selection-start-column="27" selection-end-line="485" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11682#11688#0" expanded="true" />
+            <element signature="e#11688#11694#0" expanded="true" />
+            <element signature="e#11694#11700#0" expanded="true" />
+            <element signature="e#11700#11706#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#13440#13446#0" expanded="true" />
+            <element signature="e#13446#13452#0" expanded="true" />
+            <element signature="e#13456#13462#0" expanded="true" />
+            <element signature="e#13462#13468#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#1;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#2;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#3;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#4;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#48189#48195#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#9;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#9;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#58576#58582#0" expanded="true" />
+            <element signature="e#58619#58625#0" expanded="true" />
+            <element signature="e#58625#58631#0" expanded="true" />
+            <element signature="e#58641#58647#0" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#a#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#form#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#form#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/css/portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/page/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="252" column="43" selection-start-line="252" selection-start-column="43" selection-end-line="252" selection-end-column="43" />
+        <state relative-caret-position="284">
+          <caret line="246" column="44" lean-forward="true" selection-start-line="246" selection-start-column="44" selection-end-line="246" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/css/my-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.iwntuo.com/v1.0/js/home/advertisement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
         </state>
       </provider>
     </entry>

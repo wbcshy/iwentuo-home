@@ -1,9 +1,9 @@
 
 .portfolio {
     position: relative;
-    margin: 10px 15px;
+    margin: 10px 10px;
     float: left;
-    width: 190px;
+    width: 230px;
     transition-duration: 0.4s;
     animation: winanim 0.5s;
     -webkit-backface-visibility: visible;
@@ -24,7 +24,7 @@
   font-size: 90%;
   background: #fff;
   color: #000;
-  text-transform: capitalize; 
+  text-transform: capitalize;
   font-style: italic;
   font-weight: bold;
   display:none;

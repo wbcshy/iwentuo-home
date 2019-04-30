@@ -45,23 +45,9 @@ $(function(){
     jq('.portfolio').on({
         mouseover : function () {
             var self = this;
-
-            jq(self).stop().animate({width: '290px'}, 500);   //网站建设模块图片动画
-
-            jq(self).find(".content-word").css("display","block").animate({   //文字背景图片动画`
-                width: '100%',
-                height: '100%'
-            }, 500).find("span").animate({
-                font: '12px',
-                color: '#fff'
-            }, 1000);
-
+           /* jq(self).stop().animate({width: '290px'}, 500);   //网站建设模块图片动画*/
         },
         mouseleave : function () {
-            jq(".content-word").css("display","none");
-            jq(this).stop().animate({width: '197px'}, 500, function() {
-
-            });
         }
     });
 
