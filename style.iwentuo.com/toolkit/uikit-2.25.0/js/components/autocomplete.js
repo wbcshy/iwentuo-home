@@ -159,7 +159,7 @@
             } else if (item == 'next' || item == 'prev') {
 
                 if (this.selected) {
-                    var index = items.index(this.selected);
+                    var index = items.wentuo(this.selected);
 
                     if (item == 'next') {
                         selected = items.eq(index + 1 < items.length ? index + 1 : 0);

@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Login</title>
+    <title>Contact</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
@@ -44,7 +44,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <h1>
-                        <a class="navbar-brand" href="index.html"><i class="fa fa-ravelry" aria-hidden="true"></i></a>
+                        <a class="navbar-brand" href="wentuo-home.html"><i class="fa fa-ravelry" aria-hidden="true"></i></a>
                     </h1>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -52,8 +52,8 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-4 m-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="about.html">About Us <span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="wentuo-aboutus.html">About Us <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -70,80 +70,94 @@
 					  Dropdown <i class="fa fa-angle-down" aria-hidden="true"></i>
 					</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="gallery.html">Gallery</a>
-                                    <a class="dropdown-item" href="about.html">About Us</a>
+                                    <a class="dropdown-item" href="wentuo-product.html">Gallery</a>
+                                    <a class="dropdown-item" href="wentuo-aboutus.html">About Us</a>
                                     <a class="dropdown-item" href="single.html">Single</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="wentuo-contact.html">Contact</a>
                             </li>
                         </ul>
                         <div class="header-right">
-                            <a href="login.html" class="signin mr-4"> Sign in <i class="fas fa-sign-in-alt"></i></a>
-                            <a href="register.html" class="contact">Get Started</a>
+                            <a href="wentuo-login.html" class="signin mr-4"> Sign in <i class="fas fa-sign-in-alt"></i></a>
+                            <a href="wentuo-register.html" class="contact">Get Started</a>
                         </div>
                     </div>
                 </nav>
             </div>
         </header>
         <!-- //header -->
-        <!-- banner-w3layouts -->
-        <section class="banner-w3layouts">
-            <div class="container">
-                <div class="row banner-w3layouts-grids">
-                    <div class="col-lg-5 sign-info" data-aos="fade-right">
-                        <h3>Create Account</h3>
-                        <p class="para-sign mt-2 mb-4 text-center">Enter your email and password to get sign in.</p>
-                        <form action="#" method="post">
-                            <div class="form-group">
+    </div>
+    <!--/ab -->
 
-                                <label>Name*</label>
-                                <div class="icon1">
-                                    <input placeholder="" name="name" type="text" required="">
+
+    <!-- banner-w3layouts -->
+    <section class="ab-info-main py-md-5 py-5">
+        <div class="container py-md-5 py-5">
+            <div class="ab-info-grids pt-md-5 pt-3">
+                <div class="contact-info pt-md-5 pt-0 text-center">
+                    <h3 class="tittle text-uppercase text-center mb-lg-5 mb-3 inner-tittle"><span class="sub-tittle">Find Us</span> Contact Us</h3>
+                    <p class="text-center" data-aos="fade-up">Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+                    <div class="contact-form mt-md-5">
+                        <div class="contact-form-inner mx-auto text-left">
+                            <form name="contactform " id="contactform" method="post" action="#" onsubmit="return(validate());" novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group" data-aos="fade-up">
+                                            <label>Name</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+                                        </div>
+                                        <div class="form-group" data-aos="fade-up">
+                                            <label>Email</label>
+                                            <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6">
+
+                                        <div class="form-group" data-aos="fade-up">
+                                            <label>Phone No.</label>
+                                            <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
+                                        </div>
+                                        <div class="form-group" data-aos="fade-up">
+                                            <label>Subject</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-
-                                <label>Email*</label>
-                                <div class="icon1">
-                                    <input placeholder="" name="mail" type="email" required="">
+                                <div class="form-group" data-aos="fade-up">
+                                    <label>How can we help?</label>
+                                    <textarea name="issues" class="form-control" id="iq" placeholder="Enter Your Message Here"></textarea>
                                 </div>
-                            </div>
-                            <div class="form-group">
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </form>
+                            <div class="map mt-md-5" data-aos="fade-up">
 
-                                <label>Phone Number*</label>
-                                <div class="icon2">
-                                    <input placeholder="" name="phone" type="text" required="">
-                                </div>
-                            </div>
-                            <div class="form-group">
-
-                                <label>Password*</label>
-                                <div class="icon2">
-                                    <input placeholder="" name="Password" type="password" required="">
-                                </div>
-                            </div>
-                            <input type="submit" value="Create Account">
-                            <p class="para-sign mt-3">Already have an Account ? <a href="login.html" class="ml-2"><strong>Sign in to your Account</strong></a></p>
-                        </form>
-
-                    </div>
-                    <div class="col-lg-7 banner-w3layouts-image pl-md-5">
-                        <div class="effect-w3">
-                            <img src="../../images/img4.jpg" alt="" class="img-fluid image1">
-                            <img src="../../images/img4.jpg" alt="" class="img-fluid image2">
-                            <img src="../../images/img4.jpg" alt="" class="img-fluid image3">
-                            <img src="../../images/img4.jpg" alt="" class="img-fluid image4">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100949.24429313939!2d-122.44206553967531!3d37.75102885910819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1472190196783" class="map" style="border:0" allowfullscreen=""></iframe> </div>
                         </div>
 
                     </div>
+
+
+
                 </div>
             </div>
-        </section>
-        <!-- //banner-w3layouts -->
-    </div>
-
+        </div>
+    </section>
+    <!-- //banner-w3layouts -->
+    <!--/newsletter -->
+    <section class="subscribe-main py-lg-5 py-4">
+        <div class="container">
+            <div class="newsletter-info text-center p-md-5 py-md-0 py-5 px-md-0 px-4">
+                <form action="#" method="post" class="d-flex">
+                    <input type="email" name="email" placeholder="Enter your Email..." required="">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--//newsletter-->
     <!--footer -->
     <footer>
         <section class="footer footer_1its py-5">
@@ -167,12 +181,12 @@
                         </div>
                         <div class="row">
                             <ul class="col-6 links">
-                                <li><a href="about.html">Why Choose Us </a></li>
-                                <li><a href="about.html">Overview </a></li>
+                                <li><a href="wentuo-aboutus.html">Why Choose Us </a></li>
+                                <li><a href="wentuo-aboutus.html">Overview </a></li>
                                 <li><a href="plans.html">Pricing Plans</a></li>
 
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="contact.html">Contact </a></li>
+                                <li><a href="wentuo-product.html">Gallery</a></li>
+                                <li><a href="wentuo-contact.html">Contact </a></li>
                             </ul>
                             <ul class="col-6 links">
                                 <li><a href="#">Privacy Policy </a></li>
@@ -199,7 +213,7 @@
                 </div>
                 <div class="footer-grid_section text-center">
                     <div class="footer-title-w3ls mb-3" data-aos="fade-up">
-                        <a href="index.html" class="text-uppercase"><i class="fa fa-ravelry" aria-hidden="true"></i> Slog</a>
+                        <a href="wentuo-home.html" class="text-uppercase"><i class="fa fa-ravelry" aria-hidden="true"></i> Slog</a>
                     </div>
                     <div class="footer-text">
                         <p data-aos="fade-up">Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ipnut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur elit.</p>
@@ -216,7 +230,6 @@
         </section>
     </footer>
     <!-- //footer -->
-
     <!-- copy-w3layoutsright -->
     <div class="cpy-right text-center py-3">
         <p class="copy-w3layouts">Copyright &copy; 2018.Company name All rights reserved.

@@ -91,7 +91,7 @@
                     });
                 });
 
-                this.index    = domSiblings.index(this.element);
+                this.index    = domSiblings.wentuo(this.element);
                 this.siblings = siblings;
 
             } else if (this.options.group && this.options.group.length) {

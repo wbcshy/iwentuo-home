@@ -44,12 +44,18 @@ $(function(){
     //首页网站建设模块部分
     jq('.portfolio').on({
         mouseover : function () {
-            var self = this;
+            var self = jq(this).find(".item-block");
            /* jq(self).stop().animate({width: '290px'}, 500);   //网站建设模块图片动画*/
+            self.css({"display":"block", "background": "rgba(122,119,111,0.5)"});
+            self.stop(true).animate({"top": "60px"}, 300);
         },
         mouseleave : function () {
+            var self = jq(this).find(".item-block");
+            self.stop(true).animate({"top": "-60px"}, 300);
+            self.css({"display":"none", "background": "rgba(122,119,111,0)"});
         }
     });
+
 
 
 

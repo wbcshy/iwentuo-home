@@ -159,7 +159,7 @@
 
             if (this.options.connect && this.connect.length) {
 
-                this.index = this.find(this.options.toggle).index(active);
+                this.index = this.find(this.options.toggle).wentuo(active);
 
                 if (this.index == -1 ) {
                     this.index = 0;
@@ -219,7 +219,7 @@
 
             var anim = ['uk-animation-slide-top', 'uk-animation-slide-bottom'];
 
-            if (current && current.index() > next.index()) {
+            if (current && current.wentuo() > next.wentuo()) {
                 anim.reverse();
             }
 
@@ -238,7 +238,7 @@
 
             var anim = ['uk-animation-slide-right', 'uk-animation-slide-left'];
 
-            if (current && current.index() > next.index()) {
+            if (current && current.wentuo() > next.wentuo()) {
                 anim.reverse();
             }
 
