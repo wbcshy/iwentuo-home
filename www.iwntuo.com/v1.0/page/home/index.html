@@ -140,9 +140,9 @@
     </header>
     <!-- 导航栏结束 -->
     <!-- 轮播图广告部分开始 -->
-    <div class="container swiper-container" style="padding: 7em 0 0em 0;">
-        <!--<div class="container swiper-container">-->
-        <!-- 轮播图的图片内容 -->
+    <!--<div class="container swiper-container" style="padding: 7em 0 0em 0;">
+        &lt;!&ndash;<div class="container swiper-container">&ndash;&gt;
+        &lt;!&ndash; 轮播图的图片内容 &ndash;&gt;
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <img src="../../images/home/banner/banner_jituan.png" alt="" class="my-img-fluid img-fluid">
@@ -154,13 +154,46 @@
                 <img src="../../images/home/banner/banner_jituan.png" alt="" class="my-img-fluid img-fluid">
             </div>
         </div>
-        <!-- 如果需要分页器 -->
+        &lt;!&ndash; 如果需要分页器 &ndash;&gt;
         <div class="swiper-pagination"></div>
-        <!-- 如果需要导航按钮 -->
+        &lt;!&ndash; 如果需要导航按钮 &ndash;&gt;
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-        <!--</div>-->
+        &lt;!&ndash;</div>&ndash;&gt;
+    </div>-->
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://static.runoob.com/images/mix/img_fjords_wide.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.runoob.com/images/mix/img_nature_wide.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.runoob.com/images/mix/img_mountains_wide.jpg">
+            </div>
+        </div>
+
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
     </div>
+
     <!-- 轮播图广告部分结束 -->
 </div>
 
@@ -937,7 +970,9 @@
 <!-- jquery.js -->
 <script src="../../../../style.iwentuo.com/toolkit/jquery/jquery-2.2.3.min.js"></script>
 
+
 <!-- bootstrap.js -->
+<script src="../../../../style.iwentuo.com/toolkit/bootstrap-4.0.0/js/popper.min.js"></script>
 <script src="../../../../style.iwentuo.com/toolkit/bootstrap-4.0.0/js/bootstrap.min.js"></script>
 
 <!-- swiper.js -->
