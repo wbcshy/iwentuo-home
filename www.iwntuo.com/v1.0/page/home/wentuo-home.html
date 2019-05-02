@@ -45,12 +45,12 @@
 </head>
 
 <body>
-<!-- 主页内容 -->
+<!-- 主页内容-->
 <div class="main-content" id="home">
     <!-- 导航栏开始 -->
     <header class="py-1">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light" style="justify-content: space-between">
                 <!-- 主页logo -->
                 <a class="navbar-brand" href="wentuo-home.html">
                     <i class="fa fa-ravelry" aria-hidden="true">
@@ -108,22 +108,25 @@
                                 <a class="dropdown-item" href="features.html">品牌案例</a>
                             </div>
                         </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                文拓之家<i class="fa fa-angle-down" aria-hidden="true"></i>
+                                关于我们<i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="wentuo-product.html">最新动态</a>
+                                <a class="dropdown-item" href="wentuo-product.html">资讯动态</a>
                                 <a class="dropdown-item" href="wentuo-aboutus.html">关于文拓</a>
+                                <a class="dropdown-item" href="wentuo-aboutus.html">联系我们</a>
                             </div>
                         </li>
                         <!-- 建站报价 -->
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="wentuo-home.html">产品报价<span class="sr-only">(current)</span></a>
                         </li>
+                        <!-- 个人中心 -->
                         <li class="nav-item">
-                            <a class="nav-link" href="wentuo-contact.html">联系我们</a>
+                            <a class="nav-link" href="wentuo-contact.html">个人中心</a>
                         </li>
                     </ul>
                     <div class="header-right">
@@ -137,31 +140,31 @@
     <!-- 导航栏结束 -->
 
     <!-- 轮播图广告部分开始 -->
-    <section class="banner-w3layouts py-lg-6 py-6" style="padding: 7em 0 0em 0;">
-        <div class="container swiper-container">
-            <!-- 轮播图的图片内容 -->
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="../../images/home/banner/banner_jituan.png" alt="" class="my-img-fluid img-fluid">
-                </div>
-                <div class="swiper-slide">
-                    <img src="../../images/home/banner/banner_jituan.png" alt="" class="my-img-fluid img-fluid">
-                </div>
-                <div class="swiper-slide">
-                    <img src="../../images/home/banner/banner_jituan.png" alt="" class="my-img-fluid img-fluid">
-                </div>
+    <div class="container swiper-container" style="padding: 7em 0 0em 0;">
+        <!--<div class="container swiper-container">-->
+        <!-- 轮播图的图片内容 -->
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="../../images/home/banner/banner_jituan.png" alt="" class="my-img-fluid img-fluid">
             </div>
-            <!-- 如果需要分页器 -->
-            <div class="swiper-pagination"></div>
-            <!-- 如果需要导航按钮 -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper-slide">
+                <img src="../../images/home/banner/banner_jituan.png" alt="" class="my-img-fluid img-fluid">
+            </div>
+            <div class="swiper-slide">
+                <img src="../../images/home/banner/banner_jituan.png" alt="" class="my-img-fluid img-fluid">
+            </div>
         </div>
-    </section>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <!--</div>-->
+    </div>
     <!-- 轮播图广告部分结束 -->
 </div>
 
-<!-- counter -->
+<!-- 相关信息数据展示 -->
 <section class="stats py-lg-0 py-0">
     <div class="container">
         <div class="row text-center">
@@ -194,11 +197,287 @@
         </div>
     </div>
 </section>
-<!--//counter-->
+
+<!-- 文拓所接客户精品案例展示 -->
+<section class="about py-lg-3 py-md-5 py-2">
+    <div class="container">
+        <!-- 网站建设方面效果图展示开始 -->
+        <div class="fetured-info py-lg-2 py-2">
+            <h3 class="tittle text-uppercase text-center my-lg-5 my-3">文拓精品案例欣赏</h3>
+            <div class="row fetured-sec mt-lg-5">
+                <div class="py-lg-2 align-content-center">
+                    <div id="carouselExampleIndicators" class="carousel slide pb-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="portfolio my-lg-1" data-aos="zoom-in">
+                                        <a href="#" data-toggle="modal" data-image="images/home/a7.png"
+                                           data-target="#image-gallery">
+                                            <img class="my-img-fluid" src="../../images/home/a7.png" alt="Slog"/>
+                                            <div class="item-block flex-col">
+                                                <p class="item-title">栖霞市豪诚食品有限公司</p>
+                                                <p class="item-p">所属行业：食品餐饮</p>
+                                                <button type="button" class="btn-a item-btn">查看案例</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio my-lg-1" data-aos="zoom-in">
+                                        <a class="my-img-fluid" href="#" data-toggle="modal"
+                                           data-image="images/home/a7.jpg" data-target="#image-gallery">
+                                            <img class="img-fluid" src="../../images/home/a7.png" alt="Slog"/>
+                                            <div class="item-block flex-col">
+                                                <p class="item-title">栖霞市豪诚食品有限公司</p>
+                                                <p class="item-p">所属行业：食品餐饮</p>
+                                                <button type="button" class="btn-a item-btn">查看案例</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio my-lg-1" data-aos="zoom-in">
+                                        <a class="thumbnail" href="#" data-toggle="modal"
+                                           data-image="images/home/a7.jpg" data-target="#image-gallery">
+                                            <img class="img-fluid my-img-fluid" src="../../images/home/a7.png"
+                                                 alt="Slog"/>
+                                            <div class="item-block flex-col">
+                                                <p class="item-title">栖霞市豪诚食品有限公司</p>
+                                                <p class="item-p">所属行业：食品餐饮</p>
+                                                <button type="button" class="btn-a item-btn">查看案例</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio my-lg-1" data-aos="zoom-in">
+                                        <a class="thumbnail" href="#" data-toggle="modal"
+                                           data-image="images/home/a7.jpg" data-target="#image-gallery">
+                                            <img class="img-fluid my-img-fluid" src="../../images/home/a7.png"
+                                                 alt="Slog"/>
+                                            <div class="item-block flex-col">
+                                                <p class="item-title">栖霞市豪诚食品有限公司</p>
+                                                <p class="item-p">所属行业：食品餐饮</p>
+                                                <button type="button" class="btn-a item-btn">查看案例</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="portfolio my-lg-1" data-aos="zoom-in">
+                                        <a href="#" data-toggle="modal" data-image="images/home/a7.png"
+                                           data-target="#image-gallery">
+                                            <img class="my-img-fluid" src="../../images/home/a7.png" alt="Slog"/>
+                                            <div class="item-block flex-col">
+                                                <p class="item-title">栖霞市豪诚食品有限公司</p>
+                                                <p class="item-p">所属行业：食品餐饮</p>
+                                                <button type="button" class="btn-a item-btn">查看案例</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio my-lg-1" data-aos="zoom-in">
+                                        <a class="my-img-fluid" href="#" data-toggle="modal"
+                                           data-image="images/home/a7.jpg" data-target="#image-gallery">
+                                            <img class="img-fluid" src="../../images/home/a7.png" alt="Slog"/>
+                                            <div class="item-block flex-col">
+                                                <p class="item-title">栖霞市豪诚食品有限公司</p>
+                                                <p class="item-p">所属行业：食品餐饮</p>
+                                                <button type="button" class="btn-a item-btn">查看案例</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio my-lg-1" data-aos="zoom-in">
+                                        <a class="thumbnail" href="#" data-toggle="modal"
+                                           data-image="images/home/a7.jpg" data-target="#image-gallery">
+                                            <img class="img-fluid my-img-fluid" src="../../images/home/a7.png"
+                                                 alt="Slog"/>
+                                            <div class="item-block flex-col">
+                                                <p class="item-title">栖霞市豪诚食品有限公司</p>
+                                                <p class="item-p">所属行业：食品餐饮</p>
+                                                <button type="button" class="btn-a item-btn">查看案例</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio my-lg-1" data-aos="zoom-in">
+                                        <a class="thumbnail" href="#" data-toggle="modal"
+                                           data-image="images/home/a7.jpg" data-target="#image-gallery">
+                                            <img class="img-fluid my-img-fluid" src="../../images/home/a7.png"
+                                                 alt="Slog"/>
+                                            <div class="item-block flex-col">
+                                                <p class="item-title">栖霞市豪诚食品有限公司</p>
+                                                <p class="item-p">所属行业：食品餐饮</p>
+                                                <button type="button" class="btn-a item-btn">查看案例</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="portfolio my-lg-1" data-aos="zoom-in">
+                                        <a href="#" data-toggle="modal" data-image="images/home/a7.png"
+                                           data-target="#image-gallery">
+                                            <img class="my-img-fluid" src="../../images/home/a7.png" alt="Slog"/>
+                                            <div class="item-block flex-col">
+                                                <p class="item-title">栖霞市豪诚食品有限公司</p>
+                                                <p class="item-p">所属行业：食品餐饮</p>
+                                                <button type="button" class="btn-a item-btn">查看案例</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio my-lg-1" data-aos="zoom-in">
+                                        <a class="my-img-fluid" href="#" data-toggle="modal"
+                                           data-image="images/home/a7.jpg" data-target="#image-gallery">
+                                            <img class="img-fluid" src="../../images/home/a7.png" alt="Slog"/>
+                                            <div class="item-block flex-col">
+                                                <p class="item-title">栖霞市豪诚食品有限公司</p>
+                                                <p class="item-p">所属行业：食品餐饮</p>
+                                                <button type="button" class="btn-a item-btn">查看案例</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio my-lg-1" data-aos="zoom-in">
+                                        <a class="thumbnail" href="#" data-toggle="modal"
+                                           data-image="images/home/a7.jpg" data-target="#image-gallery">
+                                            <img class="img-fluid my-img-fluid" src="../../images/home/a7.png"
+                                                 alt="Slog"/>
+                                            <div class="item-block flex-col">
+                                                <p class="item-title">栖霞市豪诚食品有限公司</p>
+                                                <p class="item-p">所属行业：食品餐饮</p>
+                                                <button type="button" class="btn-a item-btn">查看案例</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio my-lg-1" data-aos="zoom-in">
+                                        <a class="thumbnail" href="#" data-toggle="modal"
+                                           data-image="images/home/a7.jpg" data-target="#image-gallery">
+                                            <img class="img-fluid my-img-fluid" src="../../images/home/a7.png"
+                                                 alt="Slog"/>
+                                            <div class="item-block flex-col">
+                                                <p class="item-title">栖霞市豪诚食品有限公司</p>
+                                                <p class="item-p">所属行业：食品餐饮</p>
+                                                <button type="button" class="btn-a item-btn">查看案例</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <center><a href="single.html" class="my-btn btn btn-primary">更多详情</a></center>
+                </div>
+            </div>
+        </div>
+        <!-- 网站建设方面效果图展示结束 -->
+    </div>
+</section>
+
+<!-- 网站建设相关 -->
+<section class="about py-lg-3 py-md-5 py-2">
+    <div class="items container" style="float:none; display: flex;vertical-align: middle;">
+        <a href="#" class="website-a">
+            <div class="flex-row">
+                <div class="item animated fadeInLeft" style="animation-delay: .4s">
+                    <div class="img-block">
+                        <img src="https://s.300.cn/v2.0/home/images/special/index/items-website-1.png"
+                             alt="img" class="img-a">
+                        <img src="https://s.300.cn/v2.0/home/images/special/index/items-website-1-cur.png"
+                             alt="img" class="img-b">
+                    </div>
+                    <p class="items-title">经典型网站</p>
+                    <p class="items-p">品牌展示</p>
+                    <p class="items-p">提升公司和产品形象</p>
+                    <p class="items-p">个性化定制视觉设计</p>
+                    <p class="items-p">HTML5酷炫效果</p>
+                    <p class="items-p">与访问者无缝沟通</p>
+                    <p class="items-p">PC、手机多端覆盖</p>
+                    <div class="item-btn">
+                        <p class="wentuo-item-btn">了解更多</p>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="website-a">
+            <div class="flex-row">
+                <div class="item animated fadeInLeft" style="animation-delay: .4s">
+                    <div class="img-block">
+                        <img src="https://s.300.cn/v2.0/home/images/special/index/items-website-1.png"
+                             alt="img" class="img-a">
+                        <img src="https://s.300.cn/v2.0/home/images/special/index/items-website-1-cur.png"
+                             alt="img" class="img-b">
+                    </div>
+                    <p class="items-title">经典型网站</p>
+                    <p class="items-p">品牌展示</p>
+                    <p class="items-p">提升公司和产品形象</p>
+                    <p class="items-p">个性化定制视觉设计</p>
+                    <p class="items-p">HTML5酷炫效果</p>
+                    <p class="items-p">与访问者无缝沟通</p>
+                    <p class="items-p">PC、手机多端覆盖</p>
+                    <div class="item-btn">
+                        <p class="wentuo-item-btn">了解更多</p>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="website-a">
+            <div class="flex-row">
+                <div class="item animated fadeInLeft" style="animation-delay: .4s">
+                    <div class="img-block">
+                        <img src="https://s.300.cn/v2.0/home/images/special/index/items-website-1.png"
+                             alt="img" class="img-a">
+                        <img src="https://s.300.cn/v2.0/home/images/special/index/items-website-1-cur.png"
+                             alt="img" class="img-b">
+                    </div>
+                    <p class="items-title">经典型网站</p>
+                    <p class="items-p">品牌展示</p>
+                    <p class="items-p">提升公司和产品形象</p>
+                    <p class="items-p">个性化定制视觉设计</p>
+                    <p class="items-p">HTML5酷炫效果</p>
+                    <p class="items-p">与访问者无缝沟通</p>
+                    <p class="items-p">PC、手机多端覆盖</p>
+                    <div class="item-btn">
+                        <p class="wentuo-item-btn">了解更多</p>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        <a href="#" class="website-a">
+            <div class="flex-row">
+                <div class="item animated fadeInLeft" style="animation-delay: .4s">
+                    <div class="img-block">
+                        <img src="https://s.300.cn/v2.0/home/images/special/index/items-website-1.png"
+                             alt="img" class="img-a">
+                        <img src="https://s.300.cn/v2.0/home/images/special/index/items-website-1-cur.png"
+                             alt="img" class="img-b">
+                    </div>
+                    <p class="items-title">经典型网站</p>
+                    <p class="items-p">品牌展示</p>
+                    <p class="items-p">提升公司和产品形象</p>
+                    <p class="items-p">个性化定制视觉设计</p>
+                    <p class="items-p">HTML5酷炫效果</p>
+                    <p class="items-p">与访问者无缝沟通</p>
+                    <p class="items-p">PC、手机多端覆盖</p>
+                    <div class="item-btn">
+                        <p class="wentuo-item-btn">了解更多</p>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+    </div>
+</section>
+
+
+<!-- 小程序行业部分解决方案展示 -->
 <section class="about py-lg-3 py-md-5 py-2">
     <div class="container">
         <div class="inner-sec-wthree py-lg-5 py-3">
-            <h3 class="tittle text-uppercase text-center mb-lg-5 mb-3">小程序涉及行业解决方案</h3>
+            <h3 class="tittle text-uppercase text-center mb-lg-5 mb-3">小程序相关行业解决方案</h3>
             <div class="feature-grids row mb-lg-5 mb-3">
                 <div class="col-lg-4 p-0" data-aos="fade-up">
                     <div class="bottom-gd p-5" style="text-align: center">
@@ -217,7 +496,7 @@
                 <div class="col-lg-4 p-0" data-aos="fade-up">
                     <div class="bottom-gd p-5" style="text-align: center">
                         <img src="../../images/home/003.png" style="width: 200px"/>
-                        <h3 class="my-3"><span class="fa fa-crosshairs" aria-hidden="true"></span>餐饮行业</h3>
+                        <h3 class="my-3"><span class="fa " aria-hidden="true"></span>餐饮行业</h3>
                         <p>帮助客户快速构建点餐系统的小程序平台</p>
                     </div>
                 </div>
@@ -242,62 +521,12 @@
                         <p>帮助客户快速构建其他行业的小程序平台</p>
                     </div>
                 </div>
-
-
             </div>
-            <!-- 网站建设方面效果图展示开始 -->
-            <div class="fetured-info py-lg-2 py-2">
-                <h3 class="tittle text-uppercase text-center my-lg-5 my-3">选择文拓做网站建设可靠在哪</h3>
-                <div class="row fetured-sec mt-lg-5">
-                    <div class="py-lg-2 align-content-center" >
-                        <div class="portfolio my-lg-1" data-aos="zoom-in">
-                            <a href="#" data-toggle="modal" data-image="images/home/a7.png" data-target="#image-gallery">
-                                <img class="my-img-fluid" src="../../images/home/a7.png" alt="Slog"/>
-                                <div class="item-block flex-col">
-                                    <p class="item-title">栖霞市豪诚食品有限公司</p>
-                                    <p class="item-p">所属行业：食品餐饮</p>
-                                    <button type="button" class="btn-a item-btn">查看案例</button>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="portfolio my-lg-1" data-aos="zoom-in">
-                            <a class="my-img-fluid" href="#" data-toggle="modal" data-image="images/home/a7.jpg" data-target="#image-gallery">
-                                <img class="img-fluid" src="../../images/home/a7.png" alt="Slog"/>
-                                <div class="item-block flex-col">
-                                    <p class="item-title">栖霞市豪诚食品有限公司</p>
-                                    <p class="item-p">所属行业：食品餐饮</p>
-                                    <button type="button" class="btn-a item-btn">查看案例</button>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="portfolio my-lg-1" data-aos="zoom-in">
-                            <a class="thumbnail" href="#" data-toggle="modal" data-image="images/home/a7.jpg" data-target="#image-gallery">
-                                <img class="img-fluid my-img-fluid" src="../../images/home/a7.png" alt="Slog"/>
-                                <div class="item-block flex-col">
-                                    <p class="item-title">栖霞市豪诚食品有限公司</p>
-                                    <p class="item-p">所属行业：食品餐饮</p>
-                                    <button type="button" class="btn-a item-btn">查看案例</button>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="portfolio my-lg-1" data-aos="zoom-in">
-                            <a class="thumbnail" href="#" data-toggle="modal" data-image="images/home/a7.jpg" data-target="#image-gallery">
-                                <img class="img-fluid my-img-fluid" src="../../images/home/a7.png" alt="Slog"/>
-                                <div class="item-block flex-col">
-                                    <p class="item-title">栖霞市豪诚食品有限公司</p>
-                                    <p class="item-p">所属行业：食品餐饮</p>
-                                    <button type="button" class="btn-a item-btn">查看案例</button>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- 网站建设方面效果图展示结束 -->
         </div>
     </div>
 </section>
-<!--/model-->
+
+<!--  -->
 <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -448,14 +677,10 @@
                     <img class="img-fluid col-md-12" src="../../images/n6.jpg" alt="Slog">
                 </div>
             </div>
-
         </div>
     </div>
 </div>
 <!--//model-->
-
-<!--//portfolio-->
-
 <!-- 宣传海报部分开始 -->
 <section class="hand-crafted py-4">
     <div class="container py-xl-5 py-lg-3">
@@ -487,22 +712,24 @@
 <div class="testimonials py-md-5 py-5">
     <div class="container py-xl-5 py-lg-3">
         <h3 class="tittle text-uppercase text-center mb-lg-5 mb-3">最新客户评价</h3>
-        <div id="carouselExampleIndicators" class="carousel slide pb-5" data-ride="carousel">
+        <div id="carouselExampleIndicators1" class="carousel slide pb-5" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row">
                         <div class="col-lg-6 testimonials_grid" data-aos="fade-up" style="height: 282px">
                             <div class="bg-white rounded p-md-5 p-4">
-                                <p class="sub-test"><i class="fa fa-quote-left" aria-hidden="true"></i> 文拓服务真心不错，小程序界面做的非常好看，非常满意
+                                <p class="sub-test"><i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    文拓服务真心不错，小程序界面做的非常好看，非常满意
                                 </p>
                                 <div class="row mt-4">
                                     <div class="col-3">
-                                        <img src="../../images/home/laoxv.png" alt=" " class="img-fluid rounded-circle"/>
+                                        <img src="../../images/home/laoxv.png" alt=" "
+                                             class="img-fluid rounded-circle"/>
                                     </div>
                                     <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
                                         <h5 class="mb-2">老许</h5>
@@ -514,47 +741,13 @@
                         </div>
                         <div class="col-lg-6 testimonials_grid" data-aos="fade-up" style="height: 282px">
                             <div class="bg-white rounded p-md-5 p-4">
-                                <p class="sub-test"><i class="fa fa-quote-left" aria-hidden="true"></i> 文拓服务真心不错，小程序界面做的非常好看，非常满意
+                                <p class="sub-test"><i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    文拓服务真心不错，小程序界面做的非常好看，非常满意
                                 </p>
                                 <div class="row mt-4">
                                     <div class="col-3">
-                                        <img src="../../images/home/laoxv.png" alt=" " class="img-fluid rounded-circle"/>
-                                    </div>
-                                    <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
-                                        <h5 class="mb-2">老许</h5>
-                                        <h5 class="mb-2">2019-5-1 17:12:34</h5>
-                                        <p style="font-size: 16px">七牛信息云科技公司</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-lg-6 testimonials_grid" data-aos="fade-up" style="height: 282px">
-                            <div class="bg-white rounded p-md-5 p-4">
-                                <p class="sub-test"><i class="fa fa-quote-left" aria-hidden="true"></i> 文拓服务真心不错，小程序界面做的非常好看，非常满意
-                                </p>
-                                <div class="row mt-4">
-                                    <div class="col-3">
-                                        <img src="../../images/home/laoxv.png" alt=" " class="img-fluid rounded-circle"/>
-                                    </div>
-                                    <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
-                                        <h5 class="mb-2">老许</h5>
-                                        <h5 class="mb-2">2019-5-1 17:12:34</h5>
-                                        <p style="font-size: 16px">七牛信息云科技公司</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 testimonials_grid" data-aos="fade-up" style="height: 282px">
-                            <div class="bg-white rounded p-md-5 p-4">
-                                <p class="sub-test"><i class="fa fa-quote-left" aria-hidden="true"></i> 文拓服务真心不错，小程序界面做的非常好看，非常满意
-                                </p>
-                                <div class="row mt-4">
-                                    <div class="col-3">
-                                        <img src="../../images/home/laoxv.png" alt=" " class="img-fluid rounded-circle"/>
+                                        <img src="../../images/home/laoxv.png" alt=" "
+                                             class="img-fluid rounded-circle"/>
                                     </div>
                                     <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
                                         <h5 class="mb-2">老许</h5>
@@ -570,11 +763,13 @@
                     <div class="row">
                         <div class="col-lg-6 testimonials_grid" data-aos="fade-up" style="height: 282px">
                             <div class="bg-white rounded p-md-5 p-4">
-                                <p class="sub-test"><i class="fa fa-quote-left" aria-hidden="true"></i> 文拓服务真心不错，小程序界面做的非常好看，非常满意
+                                <p class="sub-test"><i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    文拓服务真心不错，小程序界面做的非常好看，非常满意
                                 </p>
                                 <div class="row mt-4">
                                     <div class="col-3">
-                                        <img src="../../images/home/laoxv.png" alt=" " class="img-fluid rounded-circle"/>
+                                        <img src="../../images/home/laoxv.png" alt=" "
+                                             class="img-fluid rounded-circle"/>
                                     </div>
                                     <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
                                         <h5 class="mb-2">老许</h5>
@@ -586,11 +781,53 @@
                         </div>
                         <div class="col-lg-6 testimonials_grid" data-aos="fade-up" style="height: 282px">
                             <div class="bg-white rounded p-md-5 p-4">
-                                <p class="sub-test"><i class="fa fa-quote-left" aria-hidden="true"></i> 文拓服务真心不错，小程序界面做的非常好看，非常满意
+                                <p class="sub-test"><i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    文拓服务真心不错，小程序界面做的非常好看，非常满意
                                 </p>
                                 <div class="row mt-4">
                                     <div class="col-3">
-                                        <img src="../../images/home/laoxv.png" alt=" " class="img-fluid rounded-circle"/>
+                                        <img src="../../images/home/laoxv.png" alt=" "
+                                             class="img-fluid rounded-circle"/>
+                                    </div>
+                                    <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
+                                        <h5 class="mb-2">老许</h5>
+                                        <h5 class="mb-2">2019-5-1 17:12:34</h5>
+                                        <p style="font-size: 16px">七牛信息云科技公司</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6 testimonials_grid" data-aos="fade-up" style="height: 282px">
+                            <div class="bg-white rounded p-md-5 p-4">
+                                <p class="sub-test"><i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    文拓服务真心不错，小程序界面做的非常好看，非常满意
+                                </p>
+                                <div class="row mt-4">
+                                    <div class="col-3">
+                                        <img src="../../images/home/laoxv.png" alt=" "
+                                             class="img-fluid rounded-circle"/>
+                                    </div>
+                                    <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
+                                        <h5 class="mb-2">老许</h5>
+                                        <h5 class="mb-2">2019-5-1 17:12:34</h5>
+                                        <p style="font-size: 16px">七牛信息云科技公司</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 testimonials_grid" data-aos="fade-up" style="height: 282px">
+                            <div class="bg-white rounded p-md-5 p-4">
+                                <p class="sub-test"><i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    文拓服务真心不错，小程序界面做的非常好看，非常满意
+                                </p>
+                                <div class="row mt-4">
+                                    <div class="col-3">
+                                        <img src="../../images/home/laoxv.png" alt=" "
+                                             class="img-fluid rounded-circle"/>
                                     </div>
                                     <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
                                         <h5 class="mb-2">老许</h5>
@@ -648,7 +885,7 @@
                             <li><a href="wentuo-aboutus.html">文拓官网 </a></li>
                             <li><a href="plans.html">技术博客</a></li>
                             <li><a href="wentuo-product.html">意见反馈</a></li>
-                            <li><a href="wentuo-contact.html">联系我们 </a></li>
+                            <li><a href="wentuo-contact.html">关于我们 </a></li>
                         </ul>
 
                     </div>
@@ -708,7 +945,6 @@
 
 <!-- vue.js -->
 <script src="../../../../style.iwentuo.com/toolkit/vue/vue-2.6.10.js"></script>
-
 
 
 <!-- 原js文件，未修改  -->
