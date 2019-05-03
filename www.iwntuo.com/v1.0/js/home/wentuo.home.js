@@ -1,7 +1,14 @@
+
 $(function(){
-    var window = $(window);
     var jq = $;
+    var window = jq(window);
+
     var itemTimer;   //定时器时间控制
+
+    $('header').css("background","rgba(16,90,228,0)");
+
+
+
 
     /***
      * 文拓官网轮播图模块

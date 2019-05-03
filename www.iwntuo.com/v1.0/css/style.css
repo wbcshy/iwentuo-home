@@ -72,7 +72,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 99;
-    background: #105ae4;
+    background:rgba(16,90,228,1)
 }
 
 .navbar-light .navbar-brand,
@@ -161,7 +161,8 @@ header {
 /*-- banner-w3layouts --*/
 
 #home {
-    background-image: linear-gradient(to left bottom, #0652dd, #0d58e2, #145de7, #1963eb, #1e68f0);
+    /*background-image: linear-gradient(to left bottom, #0652dd, #0d58e2, #145de7, #1963eb, #1e68f0);*/
+
     position: relative;
 }
 

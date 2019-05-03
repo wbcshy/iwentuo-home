@@ -71,7 +71,7 @@
                     <ul class="navbar-nav ml-4 m-auto">
                         <!-- 首页按钮 -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="wentuo-home.html">首页 <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">首页 <span class="sr-only">(current)</span></a>
                         </li>
                         <!-- 网站建设 -->
                         <li class="nav-item dropdown">
@@ -81,8 +81,8 @@
                                 <i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="features.html"></a>
-                                <a class="dropdown-item" href="features.html">品牌案例</a>
+                                <a class="dropdown-item" href="#">经典型网站</a>
+                                <a class="dropdown-item" href="#">电商型网站</a>
                             </div>
                         </li>
                         <!-- 微信生态 -->
@@ -93,9 +93,12 @@
                                 小程序<i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="features.html">新零售行业</a>
-                                <a class="dropdown-item" href="features.html">餐饮行业</a>
-                                <a class="dropdown-item" href="features.html">电商行业</a>
+                                <a class="dropdown-item" href="#">新零售相关</a>
+                                <a class="dropdown-item" href="#">电商相关</a>
+                                <a class="dropdown-item" href="#">餐饮相关</a>
+                                <a class="dropdown-item" href="#">外卖相关</a>
+                                <a class="dropdown-item" href="#">公众号相关</a>
+                                <a class="dropdown-item" href="#">其他行业</a>
                             </div>
                         </li>
                         <!-- 客户案例下拉按钮 -->
@@ -105,67 +108,80 @@
                                 客户案例<i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="features.html">精品案例</a>
-                                <a class="dropdown-item" href="features.html">品牌案例</a>
+                                <a class="dropdown-item" href="wentuo-product.html">所有案例</a>
+                                <a class="dropdown-item" href="#">网站案例</a>
+                                <a class="dropdown-item" href="#">小程序案例</a>
+                                <a class="dropdown-item" href="#">定制化案例</a>
                             </div>
                         </li>
-
+                        <!-- 关于我们 -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 关于我们<i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="wentuo-product.html">资讯动态</a>
-                                <a class="dropdown-item" href="wentuo-aboutus.html">关于文拓</a>
-                                <a class="dropdown-item" href="wentuo-aboutus.html">联系我们</a>
+                                <a class="dropdown-item" href="#">资讯动态</a>
+                                <a class="dropdown-item" href="#">关于文拓</a>
+                                <a class="dropdown-item" href="#">联系我们</a>
                             </div>
                         </li>
                         <!-- 建站报价 -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="wentuo-home.html">产品报价<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">产品报价<span class="sr-only">(current)</span></a>
                         </li>
                         <!-- 个人中心 -->
                         <li class="nav-item">
-                            <a class="nav-link" href="wentuo-contact.html">个人中心</a>
+                            <a class="nav-link" href="#">个人中心</a>
                         </li>
                     </ul>
                     <div class="header-right">
                         <a href="wentuo-login.html" class="signin mr-4">登录<i class="fas fa-sign-in-alt"></i></a>
-                        <a href="wentuo-register.html" class="contact">注册</a>
+                        <a href="wentuo-register.html" class="contact">注册<i class="fas fa-sign-in-alt"></i></a>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
     <!-- 导航栏结束 -->
+
     <!-- 轮播图广告部分开始 -->
-    <div class="container swiper-container" style="padding: 7em 0 0em 0;">
-        <!--<div class="container swiper-container">-->
-        <!-- 轮播图的图片内容 -->
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="../../images/home/banner/banner_jituan.png" alt="" class="my-img-fluid img-fluid">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../../images/home/banner/banner1.png">
             </div>
-            <div class="swiper-slide">
-                <img src="../../images/home/banner/banner_jituan.png" alt="" class="my-img-fluid img-fluid">
+            <div class="carousel-item">
+                <img src="../../images/home/banner/banner1.png">
             </div>
-            <div class="swiper-slide">
-                <img src="../../images/home/banner/banner_jituan.png" alt="" class="my-img-fluid img-fluid">
+            <div class="carousel-item">
+                <img src="../../images/home/banner/banner1.png">
             </div>
         </div>
-        <!-- 如果需要分页器 -->
-        <div class="swiper-pagination"></div>
-        <!-- 如果需要导航按钮 -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <!--</div>-->
+
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
     </div>
+
     <!-- 轮播图广告部分结束 -->
 </div>
 
 <!-- 相关信息数据展示 -->
-<section class="stats py-lg-0 py-0">
+<section class="stats py-lg-5 py-5">
     <div class="container">
         <div class="row text-center">
             <div class="col">
@@ -937,7 +953,9 @@
 <!-- jquery.js -->
 <script src="../../../../style.iwentuo.com/toolkit/jquery/jquery-2.2.3.min.js"></script>
 
+
 <!-- bootstrap.js -->
+<script src="../../../../style.iwentuo.com/toolkit/bootstrap-4.0.0/js/popper.min.js"></script>
 <script src="../../../../style.iwentuo.com/toolkit/bootstrap-4.0.0/js/bootstrap.min.js"></script>
 
 <!-- swiper.js -->
@@ -949,15 +967,29 @@
 
 <!-- 原js文件，未修改  -->
 <script src="../../js/aos.js"></script>
+
+<script src="../../js/counternew.js"></script>
+<script src="../../js/move-top.js"></script>
+<script src="../../js/easing.js"></script>
+
+<!-- 引入RequireJS -->
+<script src="../../js/require.js"></script>
+
+<!-- 引入自定义的js文件 -->
+<script src="../../js/main.js"></script>
+
+<script>
+
+
+</script>
+
 <script>
     AOS.init({
         easing: 'ease-out-back',
         duration: 1000
     });
 </script>
-<script src="../../js/counternew.js"></script>
-<script src="../../js/move-top.js"></script>
-<script src="../../js/easing.js"></script>
+
 <script>
     jQuery(document).ready(function ($) {
         $(".scroll").click(function (event) {
@@ -968,19 +1000,18 @@
         });
     });
 </script>
+
 <script>
     $(document).ready(function () {
         $().UItoTop({
             easingType: 'easeOutQuart'
         });
+
     });
 </script>
 
-<!-- 引入RequireJS -->
-<script src="../../js/require.js"></script>
 
-<!-- 引入自定义的js文件 -->
-<script src="../../js/main.js"></script>
+
 
 </body>
 
