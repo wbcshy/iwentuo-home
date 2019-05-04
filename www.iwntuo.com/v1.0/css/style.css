@@ -161,8 +161,7 @@ header {
 /*-- banner-w3layouts --*/
 
 #home {
-    /*background-image: linear-gradient(to left bottom, #0652dd, #0d58e2, #145de7, #1963eb, #1e68f0);*/
-
+    background-image: linear-gradient(to left bottom, #0652dd, #0d58e2, #145de7, #1963eb, #1e68f0);
     position: relative;
 }
 
@@ -511,10 +510,6 @@ ul.team-icons.new-inf li {
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 30vw;
-}
-
-section.hand-crafted {
-    background: #262631;
 }
 
 h4.progress-tittle {

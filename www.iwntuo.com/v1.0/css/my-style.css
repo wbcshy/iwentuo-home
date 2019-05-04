@@ -163,3 +163,39 @@
 }
 
 
+#siwei-row {
+    margin-right: -390px;
+    margin-left: -338px;
+}
+#shijian-row {
+    margin-right: -390px;
+    margin-left: -338px;
+}
+
+#pinzhi-row {
+    margin-right: -390px;
+    margin-left: -338px;
+}
+
+.conduct-animate {
+    -webkit-animation:mymove 1s infinite; /*Safari and Chrome*/
+    animation-iteration-count: 1; /*规定循环播放次数，否则一直会循环下去*/
+    -webkit-animation-fill-mode: forwards; /* 设置动画完成定格到最后一帧，不设置播放完恢复原来的位置*/
+    animation-fill-mode: forwards;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px}
+}
+
+#shijian  {
+    background: #262631;
+}
+
+#siwei {
+    background: #495057;
+}
+#pinzhi{
+    background: #495057;
+}
+
