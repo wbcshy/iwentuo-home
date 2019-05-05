@@ -242,7 +242,8 @@ a {
 .section {
   width: 100%;
   float: left;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .section-title {
   text-align: center;

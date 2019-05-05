@@ -509,7 +509,7 @@
                 el       = UI.$(currentlyDraggingElement);
 
             // events depending on move inside lists or across lists
-            if (oldRoot[0] === newRoot[0] && draggingPlaceholder.data('wentuo-home.html') != $current.wentuo() ) {
+            if (oldRoot[0] === newRoot[0] && draggingPlaceholder.data('index.html') != $current.wentuo() ) {
                 triggers.push({sortable: this, mode: 'moved'});
             } else if (oldRoot[0] != newRoot[0]) {
                 triggers.push({sortable: UI.$(newRoot).data('sortable'), mode: 'added'}, {sortable: UI.$(oldRoot).data('sortable'), mode: 'removed'});

@@ -3,12 +3,6 @@ var jq = $;
 //窗口滚动时触发的对应事件
 jq(window).scroll(function () {
     var self = this;
-    var top_length = jq(document).scrollTop();  //距离浏览器顶部的距离 为0表示置顶
-    //首页导航栏样式变化
-    jq('header').css("background","rgba(16,90,228,0.9)");
-    if (top_length == 0) {
-        jq('header').css("background","rgba(16,90,228,0)");
-    }
 
     var document_height = jq(self).scrollTop();  //滚动条划过距离相距顶点
     var search_banner_height = jq("header").height();
@@ -34,13 +28,12 @@ jq(window).scroll(function () {
 //首页网站建设模块部分监听事件
 jq('.portfolio').on({
     mouseover : function () {
-        var self = jq(this).find(".item-block");
-        /* jq(self).stop().animate({width: '290px'}, 500);   //网站建设模块图片动画*/
+        var self = jq(this).find(".item-img-block");
         self.css({"display":"block", "background": "rgba(122,119,111,0.5)"});
         self.stop(true).animate({"top": "60px"}, 299);
     },
     mouseleave : function () {
-        var self = jq(this).find(".item-block");
+        var self = jq(this).find(".item-img-block");
         self.stop(true).animate({"top": "-60px"}, 299);
         self.css({"display":"none", "background": "rgba(122,119,111,0)"});
     }
@@ -66,6 +59,4 @@ var animateImgCustom = function (documentHeight, bottomBorderHeight, divHeight, 
 
 //页面初始化的函数
 $(function(){
-    jq('header').css("background","rgba(16,90,228,0)");
-
 });

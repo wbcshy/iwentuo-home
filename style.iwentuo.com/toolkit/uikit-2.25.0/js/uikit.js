@@ -3568,7 +3568,7 @@
 
                 var link = UI.$(this);
 
-                $this.element.children('li:not(.uk-tab-responsive)').eq(link.data('wentuo-home.html')).trigger('click');
+                $this.element.children('li:not(.uk-tab-responsive)').eq(link.data('index.html')).trigger('click');
             });
 
             this.on('show.uk.switcher change.uk.tab', function(e, tab) {
