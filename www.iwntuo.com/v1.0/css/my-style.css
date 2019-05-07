@@ -21,14 +21,18 @@
  * 首页网站建设类型展示样式
  */
 .website-a {
-    margin-left: 35px;
+    margin-left: 0px;
 }
 .items {
+    margin: 0 auto;
+    width: 78%;
     padding: 60px 0;
     height: auto;
     text-align: center;
 }
-
+.items a {
+    margin: 0 auto;
+}
 .item {
     box-sizing: border-box;
     width: 224px;
@@ -206,7 +210,22 @@
  * 品牌型网站页面样式部分
  */
 #pinpai-img-div {
-    background-image: url("../images/home/website/pinpai-banner.png");
+    background-image: url("../images/website/pinpai-banner.png");
+    width: 100%;
+    height: 619px;
+}
+#yingxiao-img-div {
+    background-image: url("../images/website/yingxiao-banner.png");
+    width: 100%;
+    height: 619px;
+}
+#dianshang-img-div {
+    background-image: url("../images/website/dianshang-banner.png");
+    width: 100%;
+    height: 619px;
+}
+#waimao-img-div {
+    background-image: url("../images/website/waimao-banner.png");
     width: 100%;
     height: 619px;
 }
@@ -276,7 +295,6 @@
     text-align: left;
     margin-bottom: 0;
     display: -webkit-box
-
 }
 .adverse-gray-title {
     font-size: 36px;
@@ -333,8 +351,10 @@
     line-height: 62px;
     font-size: 24px;
 }
-.section-header .section-title {
+.section-header .about-marketing-title {
     float: left;
+    font-size: 24px;
+    line-height: 62px;
     padding: 0 0;
     color: #0d0d0d;
 }
@@ -358,9 +378,10 @@
     box-sizing: border-box;
 }
 .marketing-list .marketing-1:hover .pic {
-    background: url("../images/home/website/marketing-icons-1-hover.png") top center no-repeat;
+    background: url("../images/website/marketing-icons-1-hover.png") top center no-repeat;
     height: 71px;
 }
+
 .marketing-list li .pic-line {
     content: "";
     position: absolute;
@@ -371,15 +392,64 @@
     height: 4px;
     background: #3CA7FC;
     transform: translateX(-100%);
+   /* animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;*/
 }
 
 .marketing-list .items-title {
     padding: 17px 0;
 }
-.marketing-1 .pic {
-    background: url("../images/home/website/marketing-icons-1.png") top center no-repeat;
+.marketing-list .marketing-1 .pic {
+    background: url("../images/website/marketing-icons-1.png") top center no-repeat;
     height: 71px;
 }
-
+.marketing-list .marketing-2 .pic {
+    background: url("../images/website/marketing-icons-2.png") top center no-repeat;
+    height: 71px;
+}
+.marketing-list .marketing-3 .pic {
+    background: url("../images/website/marketing-icons-3.png") top center no-repeat;
+    height: 71px;
+}
+.marketing-list .marketing-4 .pic {
+    background: url("../images/website/marketing-icons-4.png") top center no-repeat;
+    height: 71px;
+}
+.marketing-list .marketing-5 .pic {
+    background: url("../images/website/marketing-icons-5.png") top center no-repeat;
+    height: 71px;
+}
+.marketing-list .marketing-1:hover .pic {
+    background: url("../images/website/marketing-icons-1-hover.png") top center no-repeat;
+    height: 71px;
+}
+.marketing-list .marketing-2:hover .pic {
+    background: url("../images/website/marketing-icons-2-hover.png") top center no-repeat;
+    height: 71px;
+}
+.marketing-list .marketing-3:hover .pic {
+    background: url("../images/website/marketing-icons-3-hover.png") top center no-repeat;
+    height: 71px;
+}
+.marketing-list .marketing-4:hover .pic {
+    background: url("../images/website/marketing-icons-4-hover.png") top center no-repeat;
+    height: 71px;
+}
+.marketing-list .marketing-5:hover .pic {
+    background: url("../images/website/marketing-icons-5-hover.png") top center no-repeat;
+    height: 71px;
+}
+.fix-irems {
+    padding-bottom: 14rem!important;
+}
+.website-fix-content {
+    width: 15%;
+    float: left;
+}
+.website-fix-title p{
+    font-size: 18px;
+    color: #0d0d0d;
+}
 
 

@@ -22,13 +22,10 @@ jq(document).scroll(function () {
     }
 });
 
-//移动到相关营销应用部分的动画效果
-jq(".marketing-list").find("li").on({
-    mouseover: function () {
-        var self = this;
-        jq(self).find()
-    }
-});
+
+
+
+
 
 
 
