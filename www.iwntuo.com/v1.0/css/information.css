@@ -6,3 +6,16 @@
     width: 33%;
     margin: 0 auto;
 }
+.zixun-theme {
+    margin-top: 10px;
+}
+.comment-top ul li {
+    display: block;
+}
+.information-line {
+    background: #333;
+    width: 100%;
+    height: 2px;
+    margin-top: 8px;
+    opacity: 0.5;
+}

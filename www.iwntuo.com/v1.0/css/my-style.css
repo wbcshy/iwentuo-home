@@ -163,7 +163,6 @@
     -webkit-box-shadow: 0 12px 60px rgba(0, 0, 0, .2);
     -o-box-shadow: 0 12px 60px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 12px 60px rgba(0, 0, 0, .2);
-    -ms-box-shadow: 0 12px 60px rgba(0, 0, 0, .2);
 }
 
 
@@ -191,7 +190,7 @@
     animation-fill-mode: forwards;
 }
 @keyframes mymove {
-    from {left: 0px;}
+    from {left: 0}
     to {left: 300px}
 }
 
@@ -392,9 +391,6 @@
     height: 4px;
     background: #3CA7FC;
     transform: translateX(-100%);
-   /* animation-duration: 3s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;*/
 }
 
 .marketing-list .items-title {

@@ -5144,7 +5144,7 @@
           lastIndex = firstIndex + (Math.min(bullets.length, params.dynamicMainBullets) - 1);
           midIndex = (lastIndex + firstIndex) / 2;
         }
-        bullets.removeClass(((params.bulletActiveClass) + " " + (params.bulletActiveClass) + "-next " + (params.bulletActiveClass) + "-next-next " + (params.bulletActiveClass) + "-prev " + (params.bulletActiveClass) + "-prev-prev " + (params.bulletActiveClass) + "-home"));
+        bullets.removeClass(((params.bulletActiveClass) + " " + (params.bulletActiveClass) + "-next " + (params.bulletActiveClass) + "-next-next " + (params.bulletActiveClass) + "-prev " + (params.bulletActiveClass) + "-prev-prev " + (params.bulletActiveClass) + "-anli"));
         if ($el.length > 1) {
           bullets.each(function (index, bullet) {
             var $bullet = $(bullet);
@@ -5154,7 +5154,7 @@
             }
             if (params.dynamicBullets) {
               if (bulletIndex >= firstIndex && bulletIndex <= lastIndex) {
-                $bullet.addClass(((params.bulletActiveClass) + "-home"));
+                $bullet.addClass(((params.bulletActiveClass) + "-anli"));
               }
               if (bulletIndex === firstIndex) {
                 $bullet
@@ -5179,7 +5179,7 @@
             var $firstDisplayedBullet = bullets.eq(firstIndex);
             var $lastDisplayedBullet = bullets.eq(lastIndex);
             for (var i = firstIndex; i <= lastIndex; i += 1) {
-              bullets.eq(i).addClass(((params.bulletActiveClass) + "-home"));
+              bullets.eq(i).addClass(((params.bulletActiveClass) + "-anli"));
             }
             $firstDisplayedBullet
               .prev()

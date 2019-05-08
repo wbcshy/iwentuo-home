@@ -1,5 +1,5 @@
 require([
-    '../../js/home/wentuo.home.js',
-    '../../js/home/common.animate.js',
+    '../../js/anli/wentuo.anli.js',
+    '../../js/anli/common.animate.js',
 ], function (wentuoHome, animate) {
 });

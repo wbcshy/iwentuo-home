@@ -5,7 +5,8 @@
 var jq = $;
 //页面初始化时执行的逻辑
 $(function(){
-    jq('header').css("background","rgba(16,90,228,0)");
+    // jq('header').css("background","rgba(16,90,228,0)");
+    jq('header').css("background","rgba(79,86,101,0)");
 
 });
 
@@ -16,9 +17,11 @@ jq(document).scroll(function () {
     // console.log(top_length);
     //首页导航栏样式变化
     if (top_length < 5) {
-        jq('header').css("background","rgba(16,90,228,0)");
+        // jq('header').css("background","rgba(16,90,228,0)");
+        jq('header').css("background","rgba(79,86,101,0)");
     } else {
-        jq('header').css("background","rgba(16,90,228,0.9)");
+        // jq('header').css("background","rgba(16,90,228,0.9)");
+        jq('header').css("background","rgba(79,86,101,0.9)");
     }
 });
 

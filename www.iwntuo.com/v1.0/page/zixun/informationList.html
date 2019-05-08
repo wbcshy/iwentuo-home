@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>资讯列表 | 文拓网络科技</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="文拓科技"/>
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" type="text/css"
+          href="../../../../style.iwentuo.com/toolkit/bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/portfolio.css">
+    <link rel="stylesheet" href="../../css/aos.css">
+    <link href='../../css/aos-animation.css' rel='stylesheet prefetch' type="text/css" media="all"/>
+
+    <!-- Animate.css 文件 -->
+    <link rel="stylesheet" href="../../../../style.iwentuo.com/toolkit/animate/animate.css"/>
+    <link rel="stylesheet" href="../../../../style.iwentuo.com/toolkit/swiper-4.5.0/css/swiper.min.css"/>
+
+    <!-- 导入layui.css文件 -->
+    <link rel="stylesheet" href="../../../../style.iwentuo.com/toolkit/layui/css/layui.css"/>
+
+    <!-- 自定义的css样式文件 -->
+    <link rel="stylesheet" href="../../css/style.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="../../css/my-style.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="../../css/information.css" type="text/css" media="all"/>
+
+    <!-- font-awesome-icons 图标 -->
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+
+    <!-- Fonts 字体 -->
+    <link href="http://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900"
+          rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- 导航栏部分 -->
+<div class="main-content" id="home">
+    <!-- 导航栏开始 -->
+    <header class="py-1">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light" style="justify-content: space-between">
+                <!-- 主页logo -->
+                <a class="navbar-brand" href="../index.html">
+                    <i class="fa fa-ravelry" aria-hidden="true">
+                        <img id="home-logo" src="../../images/home/home-logo.png"/>
+                    </i>
+                </a>
+                <h1>
+                    <a class="navbar-brand" href="../index.html"><i class="fa fa-ravelry"
+                                                                    aria-hidden="true"></i></a>
+                </h1>
+                <!-- 手机响应式按钮的按钮 -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-4 m-auto">
+                        <!-- 首页按钮 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="../index.html">首页 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <!-- 网站建设 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"
+                               href="#" id="setting-website" role="button" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">网站建设
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="../wangzhan/dianshang.html">电商网站</a>
+                                <a class="dropdown-item" href="../wangzhan/yingxiao.html">营销网站</a>
+                                <a class="dropdown-item" href="../wangzhan/menhu.html">门户网站</a>
+                                <a class="dropdown-item" href="../wangzhan/pingtai.html">平台管理</a>
+                                <a class="dropdown-item" href="../wangzhan/promotion.html">网站升级</a>
+                                <a class="dropdown-item" href="../wangzhan/geren.html">个人网站</a>
+                            </div>
+                        </li>
+                        <!-- 微信生态 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"
+                               href="#" id="setting-weixin" role="button" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">
+                                小程序<i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">新零售相关</a>
+                                <a class="dropdown-item" href="#">电商相关</a>
+                                <a class="dropdown-item" href="#">餐饮相关</a>
+                                <a class="dropdown-item" href="#">外卖相关</a>
+                                <a class="dropdown-item" href="#">公众号相关</a>
+                                <a class="dropdown-item" href="#">其他行业</a>
+                            </div>
+                        </li>
+                        <!-- 客户案例下拉按钮 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="customer-case" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                客户案例<i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="../anli/product.html">全部案例</a>
+                                <a class="dropdown-item" href="#">网站案例</a>
+                                <a class="dropdown-item" href="#">小程序案例</a>
+                                <a class="dropdown-item" href="#">定制化案例</a>
+                            </div>
+                        </li>
+                        <!-- 关于我们 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                关于我们<i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">资讯动态</a>
+                                <a class="dropdown-item" href="#">关于文拓</a>
+                                <a class="dropdown-item" href="#">联系我们</a>
+                            </div>
+                        </li>
+                        <!-- 建站报价 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">产品报价<span class="sr-only">(current)</span></a>
+                        </li>
+                        <!-- 个人中心 -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">个人中心</a>
+                        </li>
+                    </ul>
+                    <div class="header-right">
+                        <a href="../login.html" class="signin mr-4">登录<i class="fas fa-sign-in-alt"></i></a>
+                        <a href="../register.html" class="contact">注册<i class="fas fa-sign-in-alt"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- 导航栏结束 -->
+</div>
+
+<!-- 资讯详情页部分 -->
+<section class="ab-info-main py-md-5 py-5">
+    <div class="container py-md-5 py-5">
+        <div class="ab-info-grids pt-md-5 pt-0">
+            <div class="blog-sec pt-md-3 pt-0">
+                <div class="row mt-lg-5 mt-3">
+                    <div class="col-lg-8 blog-left-content">
+                        <div class="card" data-aos="fade-up">
+                            <!-- 轮播图广告部分开始 -->
+                            <div id="demo" class="carousel slide" data-ride="carousel">
+                                <!-- 指示符 -->
+                                <ul class="carousel-indicators">
+                                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                    <li data-target="#demo" data-slide-to="1"></li>
+                                    <li data-target="#demo" data-slide-to="2"></li>
+                                </ul>
+
+                                <!-- 轮播图片 -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="informationList.html">
+                                            <img src="../../images/smallroutine/zixunbanner/zixun-banner-02.jpg" alt="img"/>
+                                            <div class="card-footer" style="text-align: center">
+                                                <small class="text-muted">小程序！谁都能做到</small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="informationList.html">
+                                            <img src="../../images/smallroutine/zixunbanner/zixun-banner-02.jpg" alt="img" />
+                                            <div class="card-footer" style="text-align: center">
+                                                <small class="text-muted">小程序！谁都能做到</small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="informationList.html">
+                                            <img src="../../images/smallroutine/zixunbanner/zixun-banner-02.jpg" alt="img" />
+                                            <div class="card-footer" style="text-align: center">
+                                                <small class="text-muted">小程序！谁都能做到</small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- 左右切换按钮 -->
+                                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#demo" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                            </div>
+                            <!-- 轮播图广告部分结束 -->
+                        </div>
+                        <div class="container" style="height: 70px"></div>
+                        <!-- 评论内容列表 -->
+                        <div class="comment-top">
+                            <h4>资讯列表</h4>
+                            <div class="theme-content">
+                                <button type="button" class="btn btn-outline-secondary btn-sm active">小程序动态</button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm">微信小程序开发</button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm">电商资讯</button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm">营销攻略</button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm">网站建设</button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm">企业管理</button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm">公司新闻</button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm">网站建设</button>
+                            </div>
+                            <!-- 资讯列表的内容 -->
+                            <div class="information-list-content">
+                                <ul>
+                                    <li class="media mt-3">
+                                        <div class="information-list">
+                                            <a class="d-flex pr-3" href="#">
+                                                <img src="../../images/te2.jpg" alt="" class="img-fluid"/>
+                                                <div class="media-body" data-aos="fade-up">
+                                                    <h5 class="mt-0">Joseph Goh</h5>
+                                                    <p>看完感觉很棒.</p>
+                                                </div>
+                                                <p>2019-5-02</p>
+                                            </a>
+                                        </div>
+                                        <div class="information-line"></div>
+
+                                    </li>
+                                    <li class="media mt-3">
+                                        <div class="information-list">
+                                            <a class="d-flex pr-3" href="#">
+                                                <img src="../../images/te2.jpg" alt="" class="img-fluid"/>
+                                                <div class="media-body" data-aos="fade-up">
+                                                    <h5 class="mt-0">Joseph Goh</h5>
+                                                    <p>看完感觉很棒.</p>
+                                                </div>
+                                                <p>2019-5-02</p>
+                                            </a>
+                                        </div>
+                                        <div class="information-line"></div>
+                                    </li>
+                                    <li class="media mt-3">
+                                        <div class="information-list">
+                                            <a class="d-flex pr-3" href="#">
+                                                <img src="../../images/te2.jpg" alt="" class="img-fluid"/>
+                                                <div class="media-body" data-aos="fade-up">
+                                                    <h5 class="mt-0">Joseph Goh</h5>
+                                                    <p>看完感觉很棒.</p>
+                                                </div>
+                                                <p>2019-5-02</p>
+                                            </a>
+                                        </div>
+                                        <div class="information-line"></div>
+                                    </li>
+                                    <li class="media mt-3">
+                                        <div class="information-list">
+                                            <a class="d-flex pr-3" href="#">
+                                                <img src="../../images/te2.jpg" alt="" class="img-fluid"/>
+                                                <div class="media-body" data-aos="fade-up">
+                                                    <h5 class="mt-0">Joseph Goh</h5>
+                                                    <p>看完感觉很棒.</p>
+                                                </div>
+                                                <p>2019-5-02</p>
+                                            </a>
+                                        </div>
+                                        <div class="information-line"></div>
+                                    </li>
+                                    <li class="media mt-3">
+                                        <div class="information-list">
+                                            <a class="d-flex pr-3" href="#">
+                                                <img src="../../images/te2.jpg" alt="" class="img-fluid"/>
+                                                <div class="media-body" data-aos="fade-up">
+                                                    <h5 class="mt-0">Joseph Goh</h5>
+                                                    <p>看完感觉很棒.</p>
+                                                </div>
+                                                <p>2019-5-02</p>
+                                            </a>
+                                        </div>
+                                        <div class="information-line"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- 资讯列表的分页按钮 -->
+                            <div id="information-page"></div>
+                        </div>
+                    </div>
+
+                    <!-- 右侧栏位部分内容 -->
+                    <aside class="col-lg-4 blog-sldebar-right">
+
+                        <!-- 资讯分类快速点击栏位 -->
+                        <div class="single-gd" data-aos="fade-down">
+                            <h4>资讯导航</h4>
+                            <div>
+                                <a href="../index.html">
+                                    <button type="button" class="btn btn-outline-primary zixun-theme">小程序动态</button>
+                                </a>
+                                <a href="informationList.html">
+                                    <button type="button" class="btn btn-outline-secondary zixun-theme">微信小程序开发</button>
+                                </a>
+                                <a href="informationList.html">
+                                    <button type="button" class="btn btn-outline-success zixun-theme">电商资讯</button>
+                                </a>
+                                <a href="informationList.html">
+                                    <button type="button" class="btn btn-outline-dark zixun-theme">营销攻略</button>
+                                </a>
+                                <a href="informationList.html">
+                                    <button type="button" class="btn btn-outline-danger zixun-theme">网站建设</button>
+                                </a>
+                                <a href="informationList.html">
+                                    <button type="button" class="btn btn-outline-warning zixun-theme">企业管理</button>
+                                </a>
+                                <a href="informationList.html">
+                                    <button type="button" class="btn btn-outline-info zixun-theme">公司新闻</button>
+                                </a>
+                                <a href="informationList.html">
+                                    <button type="button" class="btn btn-outline-light zixun-theme">网站建设</button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- 资讯订阅专栏 -->
+                        <div class="single-gd" data-aos="fade-down">
+                            <h4>点击可以点阅文拓资讯专栏</h4>
+                            <form action="#" method="post">
+                                <input type="email" name="Email" placeholder="输入您的邮箱地址" required="">
+                                <div class="button">
+                                    <input type="submit" value="订阅"/>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- 猜你比较感兴趣的热点资讯 -->
+                        <div class="single-gd tech-btm" data-aos="fade-down">
+                            <h4>猜你比较感兴趣的资讯内容</h4>
+                            <div class="blog-grids">
+                                <div class="blog-grid-left">
+                                    <a href="information.html">
+                                        <img src="../../images/img1.jpg" class="img-fluid" alt="img" />
+                                    </a>
+                                </div>
+                                <div class="blog-grid-right">
+                                    <h5>
+                                        <a href="information.html">小程序爆发啦</a>
+                                    </h5>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="blog-grids">
+                                <div class="blog-grid-left">
+                                    <a href="information.html">
+                                        <img src="../../images/img2.jpg" class="img-fluid" alt="img" />
+                                    </a>
+                                </div>
+                                <div class="blog-grid-right">
+                                    <h5>
+                                        <a href="information.html">小程序爆发啦</a>
+                                    </h5>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="blog-grids">
+                                <div class="blog-grid-left">
+                                    <a href="information.html">
+                                        <img src="../../images/img.jpg" class="img-fluid" alt="img" />
+                                    </a>
+                                </div>
+                                <div class="blog-grid-right">
+                                    <h5>
+                                        <a href="information.html">小程序爆发啦</a>
+                                    </h5>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="blog-grids">
+                                <div class="blog-grid-left">
+                                    <a href="information.html">
+                                        <img src="../../images/img.jpg" class="img-fluid" alt="img" />
+                                    </a>
+                                </div>
+                                <div class="blog-grid-right">
+                                    <h5>
+                                        <a href="information.html">小程序爆发啦</a>
+                                    </h5>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--页面底部开始-->
+<footer>
+    <section class="footer footer_1its py-5">
+        <div class="container py-md-4">
+
+            <div class="row footer-top mb-md-5 mb-4">
+                <div class="col-lg-4 col-md-6 footer-grid_section_1its" data-aos="fade-right">
+                    <div class="footer-title-w3ls">
+                        <h3>地址</h3>
+                    </div>
+                    <div class="footer-text">
+                        <p>地址 : 江苏省 苏州市 姑苏区 苏尚新地1幢411室</p>
+                        <p>电话 : 18915520887</p>
+                        <p>邮箱 : <a href="mailto:info@example.com">service@iwentuo.com</a></p>
+                        <p>公司座机 : 534894364</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-0 mt-4 footer-grid_section_1its">
+                    <div class="footer-title-w3ls">
+                        <h3>快速链接</h3>
+                    </div>
+                    <div class="row">
+                        <ul class="col-6 links">
+                            <li><a href="../index.html">文拓官网 </a></li>
+                            <li><a href="product.html">联系我们</a></li>
+                            <li><a href="contact.html">关于我们 </a></li>
+                            <li><a href="plans.html">意见反馈</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mt-lg-0 mt-4 col-sm-12 footer-grid_section_1its" data-aos="fade-left">
+                    <div class="footer-title-w3ls">
+                        <h3>邮件订阅</h3>
+                    </div>
+                    <div class="footer-text">
+                        <p>订阅我们的邮件列表，您将始终获得我们的最新消息和更新</p>
+                        <form action="#" method="post">
+                            <input type="email" name="Email" placeholder="输入您的邮箱地址..." required="">
+                            <button class="btn1"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-grid_section text-center">
+                <div class="footer-title-w3ls mb-3" data-aos="fade-up">
+                    <a href="index.html" class="text-uppercase"><i class="fa fa-ravelry" aria-hidden="true"></i>
+                        进一步关注我们</a>
+                </div>
+                <div class="footer-text">
+                    <p data-aos="fade-up">如果您这边对文拓科技更加敢兴趣的话，可以通过下面的方式关于我们</p>
+                </div>
+                <ul class="social_section_1info" data-aos="fade-up">
+                    <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
+                    <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
+                    <li class="google"><a href="#"><i class="fa fa-google-plus mr-1"></i>google</a></li>
+                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin mr-1"></i>linkedin</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+</footer>
+<!-- 页面底部结束 -->
+
+<!-- 公司信息和网站备案信息展示部分-->
+<div class="cpy-right text-center py-3">
+    <p class="copy-w3layouts">Copyright &copy; 2018 上海文拓网络科技有限公司 All rights reserved.</p>
+</div>
+
+
+<!-- ########################################## JS相关 #############################################  -->
+
+<!-- jquery.js -->
+<script src="../../../../style.iwentuo.com/toolkit/jquery/jquery-2.2.3.min.js"></script>
+
+
+<!-- bootstrap.js -->
+<script src="../../../../style.iwentuo.com/toolkit/bootstrap-4.0.0/js/popper.min.js"></script>
+<script src="../../../../style.iwentuo.com/toolkit/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+
+<!-- swiper.js -->
+<script src="../../../../style.iwentuo.com/toolkit/swiper-4.5.0/js/swiper.min.js"></script>
+
+<!-- vue.js -->
+<script src="../../../../style.iwentuo.com/toolkit/vue/vue-2.6.10.js"></script>
+
+<script src="../../../../style.iwentuo.com/toolkit/layui/layui.js"></script>
+
+
+<!-- 原js文件，未修改  -->
+<script src="../../js/aos.js"></script>
+
+<script src="../../js/counternew.js"></script>
+<script src="../../js/move-top.js"></script>
+<script src="../../js/easing.js"></script>
+
+
+<!-- 引入自定义的js文件 -->
+<script src="../../js/zixun/zixun.js"></script>
+
+<script>
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
+</script>
+
+<script>
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 900);
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $().UItoTop({
+            easingType: 'easeOutQuart'
+        });
+
+    });
+</script>
+
+
+</body>
+
+</html>
+

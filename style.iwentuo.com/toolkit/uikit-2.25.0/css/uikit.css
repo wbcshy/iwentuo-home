@@ -348,7 +348,7 @@ pre {
 /*
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
  * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
- * Correct `block` display not defined for `home` in IE 11.
+ * Correct `block` display not defined for `anli` in IE 11.
  */
 article,
 aside,
@@ -7410,7 +7410,7 @@ a.uk-thumbnail:focus {
  ========================================================================== */
 /*
  * Prepares the whole HTML page to slide-out
- * 1. Fix the home page and disallow scrolling
+ * 1. Fix the anli page and disallow scrolling
  * 2. Side-out transition
  */
 .uk-offcanvas-page {
