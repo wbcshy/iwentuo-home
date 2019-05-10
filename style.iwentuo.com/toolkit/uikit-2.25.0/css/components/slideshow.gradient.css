@@ -4,7 +4,7 @@
  ========================================================================== */
 /*
  * 1. Create position context
- * 2. Create stacking context to prevent z-index issues with other components
+ * 2. Create stacking context to prevent z-index issues with others components
  * 3. Set width because child elements are positioned absolute. Height is set via JS
  * 4. Reset list style
  * 5. Clip child elements
@@ -28,7 +28,7 @@
 }
 /*
  * Sub-object item
- * 1. Position items above each other
+ * 1. Position items above each others
  * 2. Expand to parent container width
  * 3. Hide by default
  */

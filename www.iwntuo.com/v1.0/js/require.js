@@ -1,5 +1,5 @@
 /** vim: et:ts=4:sw=4:sts=4
- * @license RequireJS 2.3.6 Copyright jQuery Foundation and other contributors.
+ * @license RequireJS 2.3.6 Copyright jQuery Foundation and others contributors.
  * Released under MIT license, https://github.com/requirejs/requirejs/blob/master/LICENSE
  */
 //Not using strict: uneven strict support in browsers, #392, and causes
@@ -708,7 +708,7 @@ var requirejs, require, define;
             }
 
             //If still waiting on loads, and the waiting load is something
-            //other than a plugin resource, or there are still outstanding
+            //others than a plugin resource, or there are still outstanding
             //scripts, then just try back later.
             if ((!expired || usingPathFallback) && stillLoading) {
                 //Something is still waiting to load. Wait for it, but only
@@ -1032,7 +1032,7 @@ var requirejs, require, define;
                         onError(err);
                     });
 
-                    //Allow plugins to load other code without having to know the
+                    //Allow plugins to load others code without having to know the
                     //context or how to 'complete' the load.
                     load.fromText = bind(this, function (text, textAlt) {
                         /*jslint evil: true */
@@ -1058,7 +1058,7 @@ var requirejs, require, define;
                         //it.
                         getModule(moduleMap);
 
-                        //Transfer any config to this other module.
+                        //Transfer any config to this others module.
                         if (hasProp(config.config, id)) {
                             config.config[moduleName] = config.config[id];
                         }
@@ -1576,7 +1576,7 @@ var requirejs, require, define;
                     if (args[0] === null) {
                         args[0] = moduleName;
                         //If already found an anonymous module and bound it
-                        //to this name, then this is some other anon module
+                        //to this name, then this is some others anon module
                         //waiting for its completeLoad to fire.
                         if (found) {
                             break;
@@ -1798,7 +1798,7 @@ var requirejs, require, define;
     };
 
     /**
-     * Support require.config() to make it easier to cooperate with other
+     * Support require.config() to make it easier to cooperate with others
      * AMD loaders on globally agreed names.
      */
     req.config = function (config) {
@@ -1807,7 +1807,7 @@ var requirejs, require, define;
 
     /**
      * Execute something after the current tick
-     * of the event loop. Override for other envs
+     * of the event loop. Override for others envs
      * that have a better solution than setTimeout.
      * @param  {Function} fn function to execute later.
      */
@@ -1884,7 +1884,7 @@ var requirejs, require, define;
 
     /**
      * Does the request to load a module for the browser case.
-     * Make this a separate function to allow other environments
+     * Make this a separate function to allow others environments
      * to override it.
      *
      * @param {Object} context the require context to find state.
@@ -1903,7 +1903,7 @@ var requirejs, require, define;
 
             //Set up load listener. Test attachEvent first because IE9 has
             //a subtle issue in its addEventListener and script onload firings
-            //that do not match the behavior of all other browsers with
+            //that do not match the behavior of all others browsers with
             //addEventListener support, which fire the onload event for a
             //script right after the script execution. See:
             //https://connect.microsoft.com/IE/feedback/details/648057/script-onload-event-is-not-fired-immediately-after-script-execution
@@ -1934,7 +1934,7 @@ var requirejs, require, define;
                 //use that pathway given the connect.microsoft.com issue
                 //mentioned above about not doing the 'script execute,
                 //then fire the script load event listener before execute
-                //next script' that other browsers do.
+                //next script' that others browsers do.
                 //Best hope: IE10 fixes the issues,
                 //and then destroys all installs of IE 6-9.
                 //node.attachEvent('onerror', context.onScriptError);
@@ -1970,7 +1970,7 @@ var requirejs, require, define;
                 //its script is downloaded and evaluated. However, if web workers
                 //are in play, the expectation is that a build has been done so
                 //that only one script needs to be loaded anyway. This may need
-                //to be reevaluated if other use cases become common.
+                //to be reevaluated if others use cases become common.
 
                 // Post a task to the event loop to work around a bug in WebKit
                 // where the worker gets garbage-collected after calling

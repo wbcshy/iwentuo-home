@@ -11,6 +11,18 @@
     width: 1200px;
     margin: 0 auto;
 }
+.t-center {
+    text-align: center;
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+.padding-top-30 {
+    padding-top: 30px;
+}
 ul {
     list-style: none;
 }
@@ -83,6 +95,28 @@ a {
 /**
  * 首页网站建设类型展示样式
  */
+.product-show-div {
+    width: 100%;
+    margin: 0 auto;
+}
+.product-show-index {
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+}
+.product-show-index .portfolio {
+    width: 24%;
+    margin:  0 auto;
+}
+.parent-product-btn-div {
+    width: 100%;
+    margin: 0 auto;
+}
+.product-anli-btn {
+    width: 160px;
+    margin: 0 auto;
+}
+
 .img-block {
     margin: 30px auto;
     height: 66px;
@@ -174,6 +208,7 @@ a {
 }
 
 .my-btn {
+    width: 160px;
     margin-top: 15px;
     background: #105AE4;
     padding: 11px 31px;
@@ -886,3 +921,13 @@ a {
 .trade li:nth-child(10) .icon {
      background: #ffa16d url("../images/smallroutine/trade10.png") center no-repeat;
  }
+
+.sub-tittle {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#product-other {
+    text-align: center;
+    display: flex;
+}

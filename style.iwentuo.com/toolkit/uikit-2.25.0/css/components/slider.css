@@ -4,7 +4,7 @@
  ========================================================================== */
 /*
  * 1. Create position context
- * 2. Create stacking context to prevent z-index issues with other components
+ * 2. Create stacking context to prevent z-index issues with others components
  * 3. Deactivate browser history navigation in IE11
  */
 .uk-slider {
@@ -26,7 +26,7 @@
 }
 /*
  * Sub-object item
- * 1. Position items above each other
+ * 1. Position items above each others
  */
 .uk-slider > * {
   /* 1 */

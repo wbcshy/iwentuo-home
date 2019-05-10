@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>登录页面 | 文拓网络科技</title>
+    <title>案例详情 | 文拓科技</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
@@ -15,8 +15,8 @@
         function hideURLbar() {
             window.scrollTo(0, 1);
         }
-    </script>
 
+    </script>
     <!-- Bootstrap-Core-CSS -->
     <link rel="stylesheet" type="text/css"
           href="../../../style.iwentuo.com/toolkit/bootstrap-4.0.0/css/bootstrap.min.css">
@@ -44,7 +44,7 @@
 </head>
 
 <body>
-    <!-- mian-content -->
+    <!-- 导航栏开始 -->
     <div class="main-content" id="home">
         <!-- 导航栏开始 -->
         <header class="py-1">
@@ -142,54 +142,94 @@
             </div>
         </header>
         <!-- 导航栏结束 -->
-        <!-- 登录输入框 -->
-        <section class="banner-w3layouts" style="padding: 14em 0 4em 0">
-            <div class="container">
-                <div class="row banner-w3layouts-grids">
-                    <div class="col-lg-5 sign-info" data-aos="fade-right">
-                        <h3>登录你的文拓账号</h3>
-                        <p class="para-sign mt-2 mb-4 text-center">Input your account of wentuo.</p>
+    </div>
+    <!-- 导航栏结束 -->
 
-                        <form action="#" method="post">
-                            <div class="form-group">
+    <!-- 案例详情页面 -->
+    <section class="ab-info-main py-md-5 py-5">
 
+        <div class="container py-md-5 py-5">
 
-                                <label>用户名(邮箱)*</label>
-                                <div class="icon1">
-                                    <input placeholder="" name="mail" type="email" required="">
+            <div class="ab-info-grids pt-md-5 pt-0">
+                <!-- 案例名称 -->
+                <h3 class="tittle text-uppercase text-center mb-lg-5 mb-3 inner-tittle" data-aos="fade-right">
+                    论小程序对未来的影响</h3>
+                <!-- 案例相关信息-->
+                <div id="product-other" data-aos="fade-left">
+                    <span class="sub-tittle">公司名称：<i id="customer-company">诺诺神舟科技有限公司</i></span>
+                    <span class="sub-tittle">所属行业：<i id="company-type">软件开发服务行业</i></span>
+                    <span class="sub-tittle">发布日期：<i id="information-ctime">2019-5-01 12:12:34</i></span>
+                </div>
+                <div class="blog-sec pt-md-3 pt-0">
+                    <div class="row mt-lg-5 mt-3">
+                        <div class="blog-left-content">
+                            <h4 style="line-height: 100px">案例展示</h4>
+                            <div class="card" data-aos="fade-up">
+                                <!-- 轮播图广告部分开始 -->
+                                <div id="demo" class="carousel slide" data-ride="carousel">
+                                    <!-- 指示符 -->
+                                    <ul class="carousel-indicators">
+                                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                        <li data-target="#demo" data-slide-to="1"></li>
+                                        <li data-target="#demo" data-slide-to="2"></li>
+                                    </ul>
+
+                                    <!-- 轮播图片 -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <a href="informationList.html">
+                                                <img src="../images/smallroutine/zixunbanner/zixun-banner-02.jpg" alt="img"/>
+
+                                            </a>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <a href="informationList.html">
+                                                <img src="../images/smallroutine/zixunbanner/zixun-banner-02.jpg" alt="img" />
+
+                                            </a>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <a href="informationList.html">
+                                                <img src="../images/smallroutine/zixunbanner/zixun-banner-02.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- 左右切换按钮 -->
+                                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </a>
+
                                 </div>
+                                <!-- 轮播图广告部分结束 -->
                             </div>
-                            <div class="form-group">
-
-                                <label>密码*</label>
-                                <div class="icon2">
-                                    <input placeholder="" name="Password" type="password" required="">
+                            <div class="container" style="height: 70px"></div>
+                            <!-- 评论内容列表 -->
+                            <div class="comment-top">
+                                <h4>案例说明</h4>
+                                <div class="product-desc">
+                                    <span>
+                                        文拓科技商城小程序是商家首选的微信小程序商城。它具备强大“分销”的吸粉功能，并实现分销裂变锁粉、
+                                        供应商入驻、店中店、搭配多达近百款内置营销工具，运营推广一键搞定！
+                                        支持8大业态模式，覆盖主流的入驻平台模型专业团队打造，每周一次持续更新，为您实现商业价值提供
+                                        安全可靠的技术支持，你只需专注发展你的业务即可
+                                    </span>
                                 </div>
+
                             </div>
-                            <label class="anim">
-                                    <input type="checkbox" class="checkbox">
-                                        <span>记住我</span>
-                                        <a href="#">忘记密码</a>
-						    </label>
-                            <div class="clearfix"></div>
-                            <input type="submit" value="登录">
-                            <p class="para-sign mt-3">是有拥有账号？ <a href="register.html" class="ml-2"><strong>注册你的账号</strong></a></p>
-                        </form>
-                    </div>
-                    <div class="col-lg-7 banner-w3layouts-image pl-md-5">
-                        <div class="effect-w3">
-                            <img src="../images/img4.jpg" alt="" class="img-fluid image1">
-                            <img src="../images/img4.jpg" alt="" class="img-fluid image2">
-                            <img src="../images/img4.jpg" alt="" class="img-fluid image3">
-                            <img src="../images/img4.jpg" alt="" class="img-fluid image4">
                         </div>
-
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- //banner-w3layouts -->
-    </div>
+        </div>
+    </section>
+
+
+
+
 
     <!--页面底部开始-->
     <footer>
@@ -287,16 +327,8 @@
     <script src="../js/move-top.js"></script>
     <script src="../js/easing.js"></script>
 
-
-
     <!-- 引入自定义的js文件 -->
-    <script src="../js/common/common.animate.js"></script>
     <script src="../js/home/wentuo.home.js"></script>
-
-    <script>
-
-
-    </script>
 
     <script>
         AOS.init({

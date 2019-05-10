@@ -290,7 +290,7 @@ dd {
 /* Horizontal rules
  ========================================================================== */
 /*
- * 1. Address differences between Firefox and other browsers.
+ * 1. Address differences between Firefox and others browsers.
  * 2. Style
  */
 hr {
@@ -399,7 +399,7 @@ iframe {
    Component: Grid
  ========================================================================== */
 /*
- * 1. Makes grid more robust so that it can be used with other block elements like lists
+ * 1. Makes grid more robust so that it can be used with others block elements like lists
  */
 .uk-grid {
   display: -ms-flexbox;
@@ -430,7 +430,7 @@ iframe {
 /*
  * Grid cell
  * 1. Space is allocated solely based on content dimensions
- * 2. Makes grid more robust so that it can be used with other block elements
+ * 2. Makes grid more robust so that it can be used with others block elements
  * 3. DEPRECATED Using `float` to support IE9
  */
 .uk-grid > * {
@@ -2105,7 +2105,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  ========================================================================== */
 /*
  * The element with this class needs to be last child in the navbar
- * 1. This hack is needed because other float elements shift centered text
+ * 1. This hack is needed because others float elements shift centered text
  */
 .uk-navbar-center {
   float: none;
