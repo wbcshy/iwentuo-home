@@ -931,3 +931,37 @@ a {
     text-align: center;
     display: flex;
 }
+
+.company-img-01 {
+    background: url("../images/other/company.jpg") no-repeat 50%;
+    height: 520px;
+}
+.aboutus-div h2 {
+    font-size: 30px;
+    line-height: 134px;
+    text-align: center;
+    padding-bottom: 5px;
+    background: url("../images/other/all.png") no-repeat 0 128px;
+}
+.aboutus-div .abstract {
+    padding-top: 67px;
+}
+.aboutus-div .abstract img {
+    margin-top: 5px;
+    border: 0;
+}
+.aboutus-div .abstract .right {
+    float: right;
+    width: 58.6%;
+}
+.aboutus-div .abstract .right p {
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: 2em;
+    margin: 0;
+    text-align: left;
+}
+.footer-text form {
+    border: 2px solid #808080;
+    width: 100%;
+}

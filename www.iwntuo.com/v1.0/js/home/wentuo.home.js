@@ -25,19 +25,6 @@ jq(window).scroll(function () {
     animateImgCustom(document_height, pinzhi_bottom_height, pinzhi_div_height, search_banner_height, "pinzhi-img", "conduct-animate");
 });
 
-//首页网站建设模块部分监听事件
-jq('.portfolio').on({
-    mouseover : function () {
-        var self = jq(this).find(".item-img-block");
-        self.css({"display":"block", "background": "rgba(122,119,111,0.5)"});
-        self.stop(true).animate({"top": "60px"}, 299);
-    },
-    mouseleave : function () {
-        var self = jq(this).find(".item-img-block");
-        self.stop(true).animate({"top": "-60px"}, 299);
-        self.css({"display":"none", "background": "rgba(122,119,111,0)"});
-    }
-});
 
 /**
  *  将div内的图片做自定义动画实现
